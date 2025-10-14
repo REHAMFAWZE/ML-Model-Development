@@ -31,8 +31,6 @@ The main goal is to gain a **practical understanding of linear regression** as p
 - Found that **Gradient Descent** and **scikit-learn** approaches achieved similar accuracy.  
 - Data normalization helped improve model performance and stability.  
 
-## Run the Project  
-To run the notebook locally:
-```bash
+
 
 
