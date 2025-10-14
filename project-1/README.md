@@ -1,18 +1,38 @@
-📘 Linear Regression Project
+# Linear Regression Project 📈
 
-This notebook demonstrates Linear Regression using multiple approaches to understand and analyze model behavior.
-The project includes all essential stages of a Data Science workflow, starting from data preparation to model evaluation.
+## Idea  
+This project applies and analyzes **Linear Regression** using multiple approaches to understand model behavior and explore the relationship between independent and dependent variables.  
+The main goal is to gain a **practical understanding of linear regression** as part of the **Data Science learning path**.
 
-🔍 Project Overview:
+## Stages  
+1. **Data Exploration & Preprocessing**  
+   - Cleaned the dataset and handled missing values.  
+   - Encoded and normalized features to prepare them for modeling.  
 
-Data Science Process: Applied the full pipeline from data understanding to validation.
+2. **Data Visualization**  
+   - Visualized relationships between variables using different plots.  
+   - Explored correlations and insights that affect the target variable.  
 
-Data Visualization: Used various plots to explore relationships and detect patterns.
+3. **Model Building**  
+   - Implemented Linear Regression using several approaches:  
+     - Manual mathematical computation.  
+     - Using **scikit-learn** library.  
+     - Applying **Gradient Descent** to iteratively optimize the model parameters.  
 
-Data Preprocessing: Handled missing values, encoded categorical variables, and normalized features.
+4. **Model Validation**  
+   - Evaluated model performance using key metrics:  
+     - **R² (Coefficient of Determination)**  
+     - **MAE (Mean Absolute Error)**  
+     - **MSE (Mean Squared Error)**  
+   - Compared results across different methods and analyzed performance differences.
 
-Model Building: Implemented Linear Regression using different methods (e.g., manual computation, scikit-learn, gradient descent).
+## Results  
+- Built multiple Linear Regression models on the same dataset.  
+- Found that **Gradient Descent** and **scikit-learn** approaches achieved similar accuracy.  
+- Data normalization helped improve model performance and stability.  
 
-Model Validation: Evaluated performance using metrics such as R², MAE, and MSE to assess accuracy and reliability.
+## Run the Project  
+To run the notebook locally:
+```bash
 
-This notebook provides a complete, step-by-step walkthrough for understanding Linear Regression both theoretically and practically.
+
